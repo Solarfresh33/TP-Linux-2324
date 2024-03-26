@@ -1,0 +1,9 @@
+[Unit]
+Description=Service for download youtube video
+
+[Service]
+User=yt
+ExecStart=/srv/yt/yt-v2.sh
+
+[Install]
+WantedBy=multi-user.target
